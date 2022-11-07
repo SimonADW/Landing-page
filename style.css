@@ -24,10 +24,11 @@ ul  {
    gap: 10px;
 }
 
-h1 {    
+.awesome {    
     font-size: 48px;
     color:  #F9FAF8;
-    margin: 1 0;
+    font-weight: bold;
+    padding: 2px 2px;
 }
 
 
@@ -36,6 +37,9 @@ h1 {
     color: #f9FAf8;
     border-radius: 5px; 
     width: 80PX;
+    padding: 4px;
+    border: 0
+    
            
 }
 
@@ -80,6 +84,7 @@ h1 {
 .herotext {
     margin-bottom: 15px;
     margin-right: 20px;
+    font: 18px #E5E7EB;
 }
 
 .rightcontainer {
@@ -87,10 +92,10 @@ h1 {
     min-height: 250px;
     flex: 1 0 400px;
     margin-right: 275px;
-    border: 1px solid red;  /* For visuals flexboxlayout */
     background-color: grey;
     justify-content: center;
     align-items: center;
+    border: 1px solid red;  /* For visuals flexboxlayout */
 }
 
 .container2 {
