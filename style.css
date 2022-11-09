@@ -13,7 +13,7 @@
 .container {
     display: flex;
     min-height: 330px;
-    border: 1px solid red;  /* For visuals flexboxlayout */
+    /* border: 1px solid red;  /* For visuals flexboxlayout */
     justify-content: center;
     
 }
@@ -90,7 +90,7 @@ ul  {
 .container.hero {
     background: #1F2937;
     color: #f9FAf8;
-    border: 1px solid red;  /* For visuals flexboxlayout */
+    /* border: 1px solid red;  /* For visuals flexboxlayout */
     flex-direction: row;
     justify-content: center;
     padding: 60px;
@@ -105,7 +105,7 @@ ul  {
     max-height: 225px;
     flex: 1 0 400px;
     margin-left: 275px;    
-    border: 1px solid red;  /* For visuals flexboxlayout */
+    /* border: 1px solid red;  /* For visuals flexboxlayout */
     
 }
 
@@ -123,7 +123,7 @@ ul  {
     background-color: grey;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;  /* For visuals flexboxlayout */
+    /* border: 1px solid red;  /* For visuals flexboxlayout */
 }
 
 /* Inside Container second */
@@ -165,15 +165,15 @@ ul  {
     font-size: 36px; 
     font-style: italic; 
     color: #1F2937;
-    max-width: 50%;
+    width: 700px;
     
-
 }
 
-.qoutesignature {
-    align-self: flex-end;
-    margin-right: 400px;
+cite {
+    display: block;
+    font-style: normal;    
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
+    text-align: right;
     
 }
