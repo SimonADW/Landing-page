@@ -28,11 +28,12 @@
     background-color: #E5E7EB;
     flex-direction: column;
     align-items: center; 
-     
+    
  }
 
 
  .container.fourth {
+    align-items: center;
     
 }
 
@@ -176,4 +177,31 @@ cite {
     font-size: 25px;
     text-align: right;
     
+}
+
+/* Inside container fourth */
+
+.signup-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 150px;
+    width: 800px;
+
+}
+
+.callaction {
+    align-self: center;
+
+}
+
+.signup-container button {
+    background-color: transparent ;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+     
+}
 }
