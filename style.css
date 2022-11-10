@@ -58,13 +58,14 @@ ul  {
     justify-content: space-around;
     height: 50px;    
     background-color: #1F2937;
-    font-weight: bold;
+    
 }  
 
 .logo {
     font-size: 20px;
     color: #f9faf8;
     align-self: center;
+    font-weight: bold;
 }
 
 /* Inside Hero */
@@ -90,7 +91,7 @@ ul  {
 
 .container.hero {
     background: #1F2937;
-    color: #f9FAf8;
+    color: #E5E7EB;
     /* border: 1px solid red;  /* For visuals flexboxlayout */
     flex-direction: row;
     justify-content: center;
@@ -125,6 +126,11 @@ ul  {
     justify-content: center;
     align-items: center;
     /* border: 1px solid red;  /* For visuals flexboxlayout */
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
 }
 
 /* Inside Container second */
@@ -204,4 +210,12 @@ cite {
     border: 2px solid #F9FAF8;
      
 }
-}
+
+ .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color:#E5E7EB;
+    height: 50px;
+ }
